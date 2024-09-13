@@ -1,0 +1,14 @@
+[ 25%] Built target crazyflieLinkCpp
+[ 30%] Built target teleop
+[ 33%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/deps/crazyflie_tools/crazyflie_cpp/src/Crazyflie.cpp:1254:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid CrazyflieBroadcaster::sendHoverSetpoint(float, float, float, float)[m[K’
+ 1254 | void [01;31m[KCrazyflieBroadcaster[m[K::sendHoverSetpoint(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/deps/crazyflie_tools/crazyflie_cpp/src/Crazyflie.cpp:1254:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid CrazyflieBroadcaster::sendHoverSetpoint(float, float, float, float)[m[K’
+In file included from [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/deps/crazyflie_tools/crazyflie_cpp/src/Crazyflie.cpp:5[m[K:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/deps/crazyflie_tools/crazyflie_cpp/include/crazyflie_cpp/Crazyflie.h:726:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass CrazyflieBroadcaster[m[K’ defined here
+  726 | class [01;36m[KCrazyflieBroadcaster[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/build.make:76: deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:529: deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

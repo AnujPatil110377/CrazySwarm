@@ -1,0 +1,49 @@
+[0.132s] Invoking command in '/home/mocaplab/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie -- -j16 -l16
+[0.162s] [ 25%] Built target crazyflieLinkCpp
+[0.163s] [ 30%] Built target teleop
+[0.176s] [ 38%] Built target crazyflie_cpp
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[0.196s] [ 44%] Built target listMemories
+[0.196s] [ 50%] Built target setParam
+[0.197s] [ 55%] Built target scan
+[0.197s] [ 61%] Built target battery
+[0.198s] [ 66%] Built target listParams
+[0.198s] [ 72%] Built target listLogVariables
+[0.199s] [ 77%] Built target reboot
+[0.199s] [ 83%] Built target version
+[0.199s] [ 88%] Built target console
+[0.200s] [ 94%] Built target log
+[0.204s] [ 97%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[2.095s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In member function ‘[01m[Kvoid CrazyflieROS::cmd_hover_changed(crazyflie_interfaces::msg::Hover_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.095s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:486:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+[2.095s]   486 |     float vx = msg->[01;31m[Ktwist[m[K.linear.x;
+[2.095s]       |                     [01;31m[K^~~~~[m[K
+[2.095s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:487:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+[2.096s]   487 |     float vy = msg->[01;31m[Ktwist[m[K.linear.y;
+[2.096s]       |                     [01;31m[K^~~~~[m[K
+[2.096s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:488:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+[2.096s]   488 |     float yawRate = msg->[01;31m[Ktwist[m[K.angular.z;
+[2.096s]       |                          [01;31m[K^~~~~[m[K
+[2.096s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:489:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.096s]   489 |     float z = msg->[01;31m[Kpose[m[K.position.z;
+[2.096s]       |                    [01;31m[K^~~~[m[K
+[2.245s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In member function ‘[01m[Kvoid CrazyflieServer::cmd_hover_changed(crazyflie_interfaces::msg::Hover_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.245s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1007:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+[2.245s]  1007 |     float vx = msg->[01;31m[Ktwist[m[K.linear.x;
+[2.245s]       |                     [01;31m[K^~~~~[m[K
+[2.245s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1008:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+[2.245s]  1008 |     float vy = msg->[01;31m[Ktwist[m[K.linear.y;
+[2.246s]       |                     [01;31m[K^~~~~[m[K
+[2.246s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1009:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+[2.246s]  1009 |     float yawRate = msg->[01;31m[Ktwist[m[K.angular.z;
+[2.246s]       |                          [01;31m[K^~~~~[m[K
+[2.246s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1010:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.246s]  1010 |     float z = msg->[01;31m[Kpose[m[K.position.z;
+[2.246s]       |                    [01;31m[K^~~~[m[K
+[2.246s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1014:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CrazyflieBroadcaster[m[K’ has no member named ‘[01m[KsendHoverSetpoint[m[K’
+[2.246s]  1014 |         cfbc->[01;31m[KsendHoverSetpoint[m[K(
+[2.246s]       |               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.951s] gmake[2]: *** [CMakeFiles/crazyflie_server.dir/build.make:76: CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o] Error 1
+[8.951s] gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/crazyflie_server.dir/all] Error 2
+[8.951s] gmake: *** [Makefile:146: all] Error 2
+[8.952s] Invoked command in '/home/mocaplab/ros2_ws/build/crazyflie' returned '2': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie -- -j16 -l16

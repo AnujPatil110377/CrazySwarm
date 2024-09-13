@@ -1,0 +1,13 @@
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieROS::CrazyflieROS(const string&, const string&, const string&, rclcpp::Node*, rclcpp::CallbackGroup::SharedPtr, rclcpp::CallbackGroup::SharedPtr, bool)[m[K’:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:157:79:[m[K [01;31m[Kerror: [m[K‘[01m[KPosition[m[K’ was not declared in this scope; did you mean ‘[01m[Kcrazyflie_interfaces::msg::Position[m[K’?
+  157 |     const std::map<std::string, rclcpp::ParameterValue> &parameter_overrides =[01;31m[KPosition[m[K
+      |                                                                               [01;31m[K^~~~~~~~[m[K
+      |                                                                               [32m[Kcrazyflie_interfaces::msg::Position[m[K
+In file included from [01m[K/home/mocaplab/ros2_ws/build/crazyflie_interfaces/rosidl_generator_cpp/crazyflie_interfaces/msg/position.hpp:7[m[K,
+                 from [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:22[m[K:
+[01m[K/home/mocaplab/ros2_ws/build/crazyflie_interfaces/rosidl_generator_cpp/crazyflie_interfaces/msg/detail/position__struct.hpp:181:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcrazyflie_interfaces::msg::Position[m[K’ declared here
+  181 | using [01;36m[KPosition[m[K =
+      |       [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/crazyflie_server.dir/build.make:76: CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/crazyflie_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,27 @@
+[ 25%] Built target crazyflieLinkCpp
+[ 30%] Built target teleop
+[ 38%] Built target crazyflie_cpp
+[35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[ 44%] Built target setParam
+[ 50%] Built target scan
+[ 69%] Built target listMemories
+[ 69%] Built target reboot
+[ 83%] Built target listLogVariables
+[ 83%] Built target listParams
+[ 94%] Built target log
+[ 69%] Built target console
+[ 94%] Built target version
+[ 94%] Built target battery
+[ 97%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieROS::CrazyflieROS(const string&, const string&, const string&, rclcpp::Node*, rclcpp::CallbackGroup::SharedPtr, rclcpp::CallbackGroup::SharedPtr, bool)[m[K’:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:148:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_cmd_velocity_world_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_cmd_position_[m[K’?
+  148 |     [01;31m[Ksubscription_cmd_velocity_world_[m[K = node->create_subscription<crazyflie_interfaces::msg::VelocityWorld>(name + "/cmd_velocity_world", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieROS::cmd_velocity_world_changed, this, _1), sub_opt_cf_cmd);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Ksubscription_cmd_position_[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieServer::CrazyflieServer()[m[K’:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:784:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_cmd_velocity_world_[m[K’ was not declared in this scope
+  784 |     [01;31m[Ksubscription_cmd_velocity_world_[m[K = this->create_subscription<crazyflie_interfaces::msg::VelocityWorld>("all/cmd_velocity_world", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieServer::cmd_velocity_world_changed, this, _1), sub_opt_all_cmd);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/crazyflie_server.dir/build.make:76: CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/crazyflie_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,32 @@
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In member function ‘[01m[Kvoid CrazyflieROS::cmd_hover_changed(crazyflie_interfaces::msg::Hover_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:486:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+  486 |     float vx = msg->[01;31m[Ktwist[m[K.linear.x;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:487:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+  487 |     float vy = msg->[01;31m[Ktwist[m[K.linear.y;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:488:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+  488 |     float yawRate = msg->[01;31m[Ktwist[m[K.angular.z;
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:489:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  489 |     float z = msg->[01;31m[Kpose[m[K.position.z;
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In member function ‘[01m[Kvoid CrazyflieServer::cmd_hover_changed(crazyflie_interfaces::msg::Hover_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1007:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+ 1007 |     float vx = msg->[01;31m[Ktwist[m[K.linear.x;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1008:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+ 1008 |     float vy = msg->[01;31m[Ktwist[m[K.linear.y;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1009:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+ 1009 |     float yawRate = msg->[01;31m[Ktwist[m[K.angular.z;
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1010:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct crazyflie_interfaces::msg::Hover_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+ 1010 |     float z = msg->[01;31m[Kpose[m[K.position.z;
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1014:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CrazyflieBroadcaster[m[K’ has no member named ‘[01m[KsendHoverSetpoint[m[K’
+ 1014 |         cfbc->[01;31m[KsendHoverSetpoint[m[K(
+      |               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/crazyflie_server.dir/build.make:76: CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/crazyflie_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

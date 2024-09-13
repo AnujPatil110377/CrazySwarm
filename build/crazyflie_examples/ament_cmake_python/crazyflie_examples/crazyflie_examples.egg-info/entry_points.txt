@@ -1,0 +1,25 @@
+[console_scripts]
+3_balance = crazyflie_examples.3_balance:main
+3_circle_bounded_balancing = crazyflie_examples.3_circle_bounded_balancing:main
+3_circle_unbounded_balancing = crazyflie_examples.3_circle_unbounded_balancing:main
+3_ellipse_bounded_balancing = crazyflie_examples.3_ellipse_bounded_balancing:main
+3_ellipse_unbounded_balancing = crazyflie_examples.3_ellipse_unbounded_balancing:main
+3_takeoff = crazyflie_examples.3_takeoff:main
+circle_bounded_balancing = crazyflie_examples.circle_bounded_balancing:main
+circle_unbounded_balancing = crazyflie_examples.circle_unbounded_balancing:main
+cmd_full_state = crazyflie_examples.cmd_full_state:main
+ellipse_bounded = crazyflie_examples.ellipse_bounded:main
+ellipse_bounded_balancing = crazyflie_examples.ellipse_bounded_balancing:main
+ellipse_unbounded = crazyflie_examples.ellipse_unbounded:main
+ellipse_unbounded_balancing = crazyflie_examples.ellipse_unbounded_balancing:main
+figure8 = crazyflie_examples.figure8:main
+hello_world = crazyflie_examples.hello_world:main
+hover_0 = crazyflie_examples.hover_0:main
+land_safe = crazyflie_examples.land_safe:main
+multi_trajectory = crazyflie_examples.multi_trajectory:main
+nav_circle = crazyflie_examples.nav_circle:main
+nice_hover = crazyflie_examples.nice_hover:main
+set_param = crazyflie_examples.set_param:main
+single_circle_bounded = crazyflie_examples.single_circle_bounded:main
+single_circle_unbounded = crazyflie_examples.single_circle_unbounded:main
+single_integrator = crazyflie_examples.single_integrator:main

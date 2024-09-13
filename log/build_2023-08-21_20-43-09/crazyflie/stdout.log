@@ -1,0 +1,15 @@
+[ 25%] Built target crazyflieLinkCpp
+[ 30%] Built target teleop
+[ 38%] Built target crazyflie_cpp
+[35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[ 44%] Built target listMemories
+[ 50%] Built target setParam
+[ 55%] Built target scan
+[ 61%] Built target battery
+[ 66%] Built target listParams
+[ 72%] Built target listLogVariables
+[ 77%] Built target reboot
+[ 83%] Built target version
+[ 88%] Built target console
+[ 94%] Built target log
+[ 97%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m

@@ -1,0 +1,61 @@
+[0.512s] Invoking command in '/home/mocaplab/ros2_ws/build/crazyflie_py': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples LD_LIBRARY_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces/lib:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/mocaplab/ros2_ws/build/crazyflie_py/prefix_override:/home/mocaplab/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mocaplab/ros2_ws/build/crazyflie_py/build
+[0.702s] running develop
+[0.702s] /home/mocaplab/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.702s] !!
+[0.702s] 
+[0.702s]         ********************************************************************************
+[0.702s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.702s]         Instead, use pypa/build, pypa/installer or other
+[0.702s]         standards-based tools.
+[0.702s] 
+[0.702s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.702s]         ********************************************************************************
+[0.703s] 
+[0.703s] !!
+[0.703s]   easy_install.initialize_options(self)
+[0.723s] /home/mocaplab/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.723s] !!
+[0.723s] 
+[0.723s]         ********************************************************************************
+[0.723s]         Please avoid running ``setup.py`` directly.
+[0.723s]         Instead, use pypa/build, pypa/installer or other
+[0.723s]         standards-based tools.
+[0.723s] 
+[0.723s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.723s]         ********************************************************************************
+[0.723s] 
+[0.723s] !!
+[0.723s]   self.initialize_options()
+[0.859s] Invoked command in '/home/mocaplab/ros2_ws/build/crazyflie_py' returned '0': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples LD_LIBRARY_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces/lib:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/mocaplab/ros2_ws/build/crazyflie_py/prefix_override:/home/mocaplab/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mocaplab/ros2_ws/build/crazyflie_py/build
+[0.860s] Invoking command in '/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_py': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples LD_LIBRARY_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces/lib:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/mocaplab/ros2_ws/build/crazyflie_py/prefix_override:/home/mocaplab/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/mocaplab/ros2_ws/build/crazyflie_py/build install --record /home/mocaplab/ros2_ws/build/crazyflie_py/install.log --single-version-externally-managed
+[0.996s] running egg_info
+[1.006s] writing ../../../build/crazyflie_py/crazyflie_py.egg-info/PKG-INFO
+[1.006s] writing dependency_links to ../../../build/crazyflie_py/crazyflie_py.egg-info/dependency_links.txt
+[1.006s] writing requirements to ../../../build/crazyflie_py/crazyflie_py.egg-info/requires.txt
+[1.006s] writing top-level names to ../../../build/crazyflie_py/crazyflie_py.egg-info/top_level.txt
+[1.090s] reading manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[1.090s] writing manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[1.091s] running build
+[1.091s] running build_py
+[1.091s] running install
+[1.091s] /home/mocaplab/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.091s] !!
+[1.091s] 
+[1.091s]         ********************************************************************************
+[1.091s]         Please avoid running ``setup.py`` directly.
+[1.091s]         Instead, use pypa/build, pypa/installer or other
+[1.091s]         standards-based tools.
+[1.091s] 
+[1.091s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.091s]         ********************************************************************************
+[1.091s] 
+[1.092s] !!
+[1.092s]   self.initialize_options()
+[1.095s] running install_lib
+[1.105s] running install_data
+[1.115s] running install_egg_info
+[1.125s] removing '/home/mocaplab/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-2.0.0-py3.10.egg-info' (and everything under it)
+[1.125s] Copying ../../../build/crazyflie_py/crazyflie_py.egg-info to /home/mocaplab/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-2.0.0-py3.10.egg-info
+[1.126s] running install_scripts
+[1.166s] writing list of installed files to '/home/mocaplab/ros2_ws/build/crazyflie_py/install.log'
+[1.184s] Invoked command in '/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_py' returned '0': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples LD_LIBRARY_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces/lib:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/mocaplab/ros2_ws/build/crazyflie_py/prefix_override:/home/mocaplab/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/mocaplab/ros2_ws/build/crazyflie_py/build install --record /home/mocaplab/ros2_ws/build/crazyflie_py/install.log --single-version-externally-managed

@@ -1,0 +1,55 @@
+[0.130s] Invoking command in '/home/mocaplab/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie -- -j16 -l16
+[0.167s] [ 25%] Built target crazyflieLinkCpp
+[0.168s] [ 30%] Built target teleop
+[0.181s] [ 33%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[1.880s] [ 36%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[1.916s] [ 38%] Built target crazyflie_cpp
+[1.929s] [35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[1.938s] [ 41%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[1.938s] [ 44%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o[0m
+[1.939s] [ 47%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o[0m
+[1.939s] [ 52%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o[0m
+[1.939s] [ 52%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o[0m
+[1.939s] [ 55%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o[0m
+[1.939s] [ 63%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o[0m
+[1.939s] [ 63%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o[0m
+[1.939s] [ 63%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o[0m
+[1.940s] [ 66%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o[0m
+[1.946s] [ 69%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[3.139s] [ 72%] [32m[1mLinking CXX executable listMemories[0m
+[3.164s] [ 75%] [32m[1mLinking CXX executable console[0m
+[3.313s] [ 77%] [32m[1mLinking CXX executable reboot[0m
+[3.353s] [ 77%] Built target listMemories
+[3.358s] [ 77%] Built target console
+[3.446s] [ 80%] [32m[1mLinking CXX executable setParam[0m
+[3.516s] [ 80%] Built target reboot
+[3.540s] [ 83%] [32m[1mLinking CXX executable scan[0m
+[3.589s] [ 86%] [32m[1mLinking CXX executable version[0m
+[3.605s] [ 88%] [32m[1mLinking CXX executable listParams[0m
+[3.635s] [ 91%] [32m[1mLinking CXX executable listLogVariables[0m
+[3.659s] [ 91%] Built target setParam
+[3.672s] [ 94%] [32m[1mLinking CXX executable log[0m
+[3.756s] [ 97%] [32m[1mLinking CXX executable battery[0m
+[3.769s] [ 97%] Built target scan
+[3.821s] [ 97%] Built target version
+[3.835s] [ 97%] Built target listParams
+[3.858s] [ 97%] Built target listLogVariables
+[3.891s] [ 97%] Built target log
+[3.925s] [ 97%] Built target battery
+[4.569s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieROS::CrazyflieROS(const string&, const string&, const string&, rclcpp::Node*, rclcpp::CallbackGroup::SharedPtr, rclcpp::CallbackGroup::SharedPtr, bool)[m[K’:
+[4.569s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:149:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_velocity_world_[m[K’ was not declared in this scope
+[4.569s]   149 |     [01;31m[Ksubscription_velocity_world_[m[K = node->create_subscription<crazyflie_interfaces::msg::VelocityWorld>(name + "/cmd_velocity_world", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieROS::cmd_velocity_world_changed, this, _1), sub_opt_cf_cmd);
+[4.569s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.794s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieServer::CrazyflieServer()[m[K’:
+[4.794s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:785:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_cmd_velocity_world_[m[K’ was not declared in this scope
+[4.794s]   785 |     [01;31m[Ksubscription_cmd_velocity_world_[m[K = this->create_subscription<crazyflie_interfaces::msg::VelocityWorld>("all/cmd_velocity_world", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieServer::cmd_velocity_world_changed, this, _1), sub_opt_all_cmd);
+[4.794s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.838s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In member function ‘[01m[Kvoid CrazyflieServer::cmd_velocity_world_changed(crazyflie_interfaces::msg::VelocityWorld_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.838s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1048:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_rate[m[K’ was not declared in this scope; did you mean ‘[01m[KyawRate[m[K’?
+[4.838s]  1048 |           x, y, z, [01;31m[Kyaw_rate[m[K);
+[4.838s]       |                    [01;31m[K^~~~~~~~[m[K
+[4.838s]       |                    [32m[KyawRate[m[K
+[12.088s] gmake[2]: *** [CMakeFiles/crazyflie_server.dir/build.make:76: CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o] Error 1
+[12.088s] gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/crazyflie_server.dir/all] Error 2
+[12.088s] gmake: *** [Makefile:146: all] Error 2
+[12.090s] Invoked command in '/home/mocaplab/ros2_ws/build/crazyflie' returned '2': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie -- -j16 -l16

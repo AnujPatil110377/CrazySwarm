@@ -1,0 +1,23 @@
+{
+  "package_name": "crazyflie_interfaces",
+  "non_idl_tuples": [
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/FullState.msg",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogDataGeneric.msg",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Hover.msg",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogBlock.msg",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Position.msg",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/TrajectoryPolynomialPiece.msg",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/VelocityWorld.msg",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/GoTo.srv",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Land.srv",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/NotifySetpointsStop.srv",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/SetGroupMask.srv",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/StartTrajectory.srv",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Stop.srv",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Takeoff.srv",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/UpdateParams.srv",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/UploadTrajectory.srv",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/RemoveLogging.srv",
+    "/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/AddLogging.srv"
+  ]
+}

@@ -1,0 +1,39 @@
+[0.132s] Invoking command in '/home/mocaplab/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie -- -j16 -l16
+[0.162s] [ 25%] Built target crazyflieLinkCpp
+[0.164s] [ 30%] Built target teleop
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target crazyflie_cpp[0m
+[0.177s] [ 38%] Built target crazyflie_cpp
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target listParams[0m
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target listLogVariables[0m
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target battery[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target listMemories[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target scan[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target reboot[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target console[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target setParam[0m
+[0.190s] [35m[1mConsolidate compiler generated dependencies of target version[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target log[0m
+[0.204s] [ 44%] Built target listParams
+[0.208s] [ 50%] Built target listLogVariables
+[0.208s] [ 61%] Built target log
+[0.208s] [ 61%] Built target version
+[0.208s] [ 72%] Built target setParam
+[0.208s] [ 72%] Built target listMemories
+[0.208s] [ 94%] Built target battery
+[0.208s] [ 94%] Built target scan
+[0.208s] [ 97%] Built target reboot
+[0.208s] [ 97%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[0.209s] [ 97%] Built target console
+[2.021s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieROS::CrazyflieROS(const string&, const string&, const string&, rclcpp::Node*, rclcpp::CallbackGroup::SharedPtr, rclcpp::CallbackGroup::SharedPtr, bool)[m[K’:
+[2.021s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:149:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_velocity_world_[m[K’ was not declared in this scope
+[2.021s]   149 |     [01;31m[Ksubscription_velocity_world_[m[K = node->create_subscription<crazyflie_interfaces::msg::VelocityWorld>(name + "/cmd_velocity_world", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieROS::cmd_velocity_world_changed, this, _1), sub_opt_cf_cmd);
+[2.021s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.247s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieServer::CrazyflieServer()[m[K’:
+[2.247s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:785:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_cmd_velocity_world_[m[K’ was not declared in this scope
+[2.247s]   785 |     [01;31m[Ksubscription_cmd_velocity_world_[m[K = this->create_subscription<crazyflie_interfaces::msg::VelocityWorld>("all/cmd_velocity_world", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieServer::cmd_velocity_world_changed, this, _1), sub_opt_all_cmd);
+[2.247s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.496s] gmake[2]: *** [CMakeFiles/crazyflie_server.dir/build.make:76: CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o] Error 1
+[9.496s] gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/crazyflie_server.dir/all] Error 2
+[9.496s] gmake: *** [Makefile:146: all] Error 2
+[9.498s] Invoked command in '/home/mocaplab/ros2_ws/build/crazyflie' returned '2': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie -- -j16 -l16

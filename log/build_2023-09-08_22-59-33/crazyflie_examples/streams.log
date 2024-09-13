@@ -1,0 +1,133 @@
+[0.007s] Invoking command in '/home/mocaplab/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_py:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py LD_LIBRARY_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces/lib:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib PYTHONPATH=/home/mocaplab/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie_examples -- -j16 -l16
+[0.038s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[0.038s] Built target ament_cmake_python_symlink_crazyflie_examples
+[0.138s] running install_scripts
+[0.139s] running egg_info
+[0.146s] writing crazyflie_examples.egg-info/PKG-INFO
+[0.146s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[0.146s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[0.146s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[0.150s] /home/mocaplab/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.150s] !!
+[0.150s] 
+[0.150s]         ********************************************************************************
+[0.150s]         Please avoid running ``setup.py`` directly.
+[0.150s]         Instead, use pypa/build, pypa/installer or other
+[0.150s]         standards-based tools.
+[0.150s] 
+[0.150s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.150s]         ********************************************************************************
+[0.150s] 
+[0.150s] !!
+[0.150s]   self.initialize_options()
+[0.153s] running egg_info
+[0.166s] writing crazyflie_examples.egg-info/PKG-INFO
+[0.167s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[0.167s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[0.167s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[0.209s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.210s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.224s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.225s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.226s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[0.248s] Installing 3_balance script to scripts
+[0.248s] Installing circle_bounded_balancing script to scripts
+[0.248s] Installing circle_unbounded_balancing script to scripts
+[0.248s] Installing cmd_full_state script to scripts
+[0.248s] Installing ellipse_bounded script to scripts
+[0.248s] Installing ellipse_bounded_balancing script to scripts
+[0.248s] Installing ellipse_unbounded script to scripts
+[0.248s] Installing ellipse_unbounded_balancing script to scripts
+[0.248s] Installing figure8 script to scripts
+[0.249s] Installing hello_world script to scripts
+[0.249s] Installing hover_0 script to scripts
+[0.249s] Installing multi_trajectory script to scripts
+[0.249s] Installing nice_hover script to scripts
+[0.249s] Installing set_param script to scripts
+[0.249s] Installing single_circle_bounded script to scripts
+[0.249s] Installing single_circle_unbounded script to scripts
+[0.249s] Installing single_integrator script to scripts
+[0.267s] Built target ament_cmake_python_build_crazyflie_examples_scripts
+[0.273s] Invoked command in '/home/mocaplab/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_py:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py LD_LIBRARY_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces/lib:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib PYTHONPATH=/home/mocaplab/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie_examples -- -j16 -l16
+[0.286s] Invoking command in '/home/mocaplab/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_py:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py LD_LIBRARY_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces/lib:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib PYTHONPATH=/home/mocaplab/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/mocaplab/ros2_ws/build/crazyflie_examples
+[0.290s] -- Install configuration: ""
+[0.291s] -- Execute custom install script
+[0.291s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.sh
+[0.291s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.dsv
+[0.292s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/PKG-INFO
+[0.292s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/SOURCES.txt
+[0.292s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/dependency_links.txt
+[0.292s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/entry_points.txt
+[0.292s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/top_level.txt
+[0.293s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//3_balance
+[0.293s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//circle_bounded_balancing
+[0.294s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//circle_unbounded_balancing
+[0.294s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//cmd_full_state
+[0.294s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//ellipse_0
+[0.294s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//ellipse_1
+[0.295s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//ellipse_bounded
+[0.295s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//ellipse_bounded_balancing
+[0.295s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//ellipse_unbounded
+[0.295s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//ellipse_unbounded_balancing
+[0.295s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//figure8
+[0.296s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//hello_world
+[0.296s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//hover_0
+[0.296s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//multi_trajectory
+[0.296s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
+[0.296s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//set_param
+[0.297s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//single_circle
+[0.297s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//single_circle_bounded
+[0.297s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//single_circle_unbounded
+[0.297s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//single_integrator
+[0.298s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/3_balance.py
+[0.298s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py
+[0.299s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/circle_bounded_balancing.py
+[0.299s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/circle_unbounded_balancing.py
+[0.299s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py
+[0.299s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/figure8.csv
+[0.299s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+[0.299s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+[0.299s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/ellipse_bounded.py
+[0.299s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/ellipse_bounded_balancing.py
+[0.300s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/ellipse_unbounded.py
+[0.300s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/ellipse_unbounded_balancing.py
+[0.300s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py
+[0.300s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py
+[0.300s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hover_0.py
+[0.300s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py
+[0.300s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py
+[0.300s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py
+[0.301s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/single_circle_bounded.py
+[0.301s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/single_circle_unbounded.py
+[0.301s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/single_integrator.py
+[0.301s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
+[0.301s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
+[0.302s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.data
+[0.302s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.pgm
+[0.302s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.posegraph
+[0.302s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.yaml
+[0.302s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+[0.302s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+[0.302s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+[0.302s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+[0.303s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+[0.303s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.sh
+[0.303s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.dsv
+[0.303s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.sh
+[0.303s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.dsv
+[0.303s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.bash
+[0.303s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.sh
+[0.303s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.zsh
+[0.303s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.dsv
+[0.303s] -- Symlinking: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv
+[0.309s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/packages/crazyflie_examples
+[0.309s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+[0.309s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+[0.309s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.xml
+[0.334s] Listing '/home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples'...
+[0.334s] Listing '/home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data'...
+[0.334s] Listing '/home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory'...
+[0.334s] Compiling '/home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/ellipse_bounded.py'...
+[0.334s] Compiling '/home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/ellipse_bounded_balancing.py'...
+[0.334s] Compiling '/home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/ellipse_unbounded_balancing.py'...
+[0.339s] Invoked command in '/home/mocaplab/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_py:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py LD_LIBRARY_PATH=/home/mocaplab/ros2_ws/install/crazyflie_interfaces/lib:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib PYTHONPATH=/home/mocaplab/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/mocaplab/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/mocaplab/ros2_ws/build/crazyflie_examples

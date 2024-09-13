@@ -1,0 +1,11 @@
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieROS::CrazyflieROS(const string&, const string&, const string&, rclcpp::Node*, rclcpp::CallbackGroup::SharedPtr, rclcpp::CallbackGroup::SharedPtr, bool)[m[K’:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:149:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_velocity_world_[m[K’ was not declared in this scope
+  149 |     [01;31m[Ksubscription_velocity_world_[m[K = node->create_subscription<crazyflie_interfaces::msg::VelocityWorld>(name + "/cmd_velocity_world", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieROS::cmd_velocity_world_changed, this, _1), sub_opt_cf_cmd);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieServer::CrazyflieServer()[m[K’:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:785:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_cmd_velocity_world_[m[K’ was not declared in this scope
+  785 |     [01;31m[Ksubscription_cmd_velocity_world_[m[K = this->create_subscription<crazyflie_interfaces::msg::VelocityWorld>("all/cmd_velocity_world", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieServer::cmd_velocity_world_changed, this, _1), sub_opt_all_cmd);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/crazyflie_server.dir/build.make:76: CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/crazyflie_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

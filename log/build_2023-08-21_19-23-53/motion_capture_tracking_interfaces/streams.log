@@ -1,0 +1,173 @@
+[0.008s] Invoking command in '/home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mocaplab/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DCMAKE_INSTALL_PREFIX=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces
+[0.034s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.133s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.147s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.171s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.180s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.214s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.275s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.465s] -- Found ament_cmake_cppcheck: 0.12.7 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.466s] -- Found ament_cmake_cpplint: 0.12.7 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.467s] -- Found ament_cmake_uncrustify: 0.12.7 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.469s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.833s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.865s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.865s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.865s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.891s] -- Found ament_cmake_flake8: 0.12.7 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[0.892s] -- Found ament_cmake_pep257: 0.12.7 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[0.902s] -- Configuring done
+[0.943s] -- Generating done
+[0.945s] -- Build files have been written to: /home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces
+[0.950s] Invoked command in '/home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/mocaplab/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DCMAKE_INSTALL_PREFIX=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces
+[0.951s] Invoking command in '/home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces -- -j16 -l16
+[0.975s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_generator_c[0m
+[0.981s] [  2%] Built target motion_capture_tracking_interfaces__cpp
+[0.985s] [  2%] Built target ament_cmake_python_symlink_motion_capture_tracking_interfaces
+[0.986s] [ 12%] Built target motion_capture_tracking_interfaces__rosidl_generator_c
+[0.987s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_typesupport_cpp[0m
+[0.987s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.987s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.993s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c[0m
+[0.993s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_typesupport_c[0m
+[0.994s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.000s] [ 43%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_cpp
+[1.000s] [ 43%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp
+[1.000s] [ 43%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.000s] [ 53%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_c
+[1.001s] [ 64%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c
+[1.003s] [ 74%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c
+[1.015s] [ 74%] Built target motion_capture_tracking_interfaces
+[1.028s] [ 76%] Built target motion_capture_tracking_interfaces__py
+[1.037s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_generator_py[0m
+[1.047s] [ 84%] Built target motion_capture_tracking_interfaces__rosidl_generator_py
+[1.054s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.054s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_typesupport_c__pyext[0m
+[1.054s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.062s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.062s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_c__pyext
+[1.062s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.122s] running egg_info
+[1.133s] writing motion_capture_tracking_interfaces.egg-info/PKG-INFO
+[1.133s] writing dependency_links to motion_capture_tracking_interfaces.egg-info/dependency_links.txt
+[1.133s] writing top-level names to motion_capture_tracking_interfaces.egg-info/top_level.txt
+[1.232s] reading manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[1.232s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[1.252s] [100%] Built target ament_cmake_python_build_motion_capture_tracking_interfaces_egg
+[1.259s] Invoked command in '/home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces -- -j16 -l16
+[1.308s] Invoking command in '/home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces
+[1.312s] -- Install configuration: ""
+[1.313s] -- Execute custom install script
+[1.313s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/rosidl_interfaces/motion_capture_tracking_interfaces
+[1.314s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.h
+[1.314s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.h
+[1.314s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.h
+[1.315s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.h
+[1.315s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.h
+[1.315s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.h
+[1.315s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.h
+[1.315s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.h
+[1.315s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.315s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.sh
+[1.315s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.dsv
+[1.315s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_c.h
+[1.315s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_c.h
+[1.316s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.316s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__builder.hpp
+[1.316s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.hpp
+[1.316s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__traits.hpp
+[1.316s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__builder.hpp
+[1.316s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.hpp
+[1.316s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__traits.hpp
+[1.316s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.hpp
+[1.316s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.hpp
+[1.317s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.317s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.317s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.317s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_c.h
+[1.317s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_c.h
+[1.317s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.317s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.317s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_cpp.hpp
+[1.318s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.sh
+[1.318s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.dsv
+[1.318s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+[1.318s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.318s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.318s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+[1.318s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/__init__.py
+[1.319s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c
+[1.319s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.319s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.319s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[1.319s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.319s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.319s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.319s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/__init__.py
+[1.319s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose.py
+[1.320s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py
+[1.320s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c
+[1.320s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_s.c
+[1.320s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.320s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.320s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.321s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.idl
+[1.321s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.idl
+[1.321s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.msg
+[1.321s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.msg
+[1.321s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking_interfaces
+[1.322s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking_interfaces
+[1.322s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.sh
+[1.322s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.dsv
+[1.322s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.sh
+[1.322s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.dsv
+[1.323s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.bash
+[1.323s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.sh
+[1.323s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.zsh
+[1.323s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.dsv
+[1.323s] -- Symlinking: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.dsv
+[1.329s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/packages/motion_capture_tracking_interfaces
+[1.329s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.329s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.330s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.330s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.330s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.330s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.330s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.331s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig.cmake
+[1.331s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig-version.cmake
+[1.331s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.xml
+[1.332s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so
+[1.332s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.332s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.333s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so
+[1.333s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so
+[1.333s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.333s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so
+[1.358s] Listing '/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces'...
+[1.358s] Compiling '/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/__init__.py'...
+[1.358s] Listing '/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg'...
+[1.362s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[1.362s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport.cmake
+[1.362s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.362s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.362s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.362s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cppExport.cmake
+[1.362s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport.cmake
+[1.363s] -- Up-to-date: /home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.365s] Invoked command in '/home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/mocaplab/ros2_ws/build/motion_capture_tracking_interfaces

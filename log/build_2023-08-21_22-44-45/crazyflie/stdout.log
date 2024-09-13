@@ -1,0 +1,3 @@
+[ 25%] Built target crazyflieLinkCpp
+[ 30%] Built target teleop
+[ 33%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m

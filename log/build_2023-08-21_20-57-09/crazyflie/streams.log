@@ -1,0 +1,24 @@
+[0.134s] Invoking command in '/home/mocaplab/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie -- -j16 -l16
+[0.165s] [ 25%] Built target crazyflieLinkCpp
+[0.166s] [ 30%] Built target teleop
+[0.178s] [ 38%] Built target crazyflie_cpp
+[0.190s] [35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[0.199s] [ 44%] Built target scan
+[0.199s] [ 50%] Built target listParams
+[0.201s] [ 55%] Built target battery
+[0.201s] [ 63%] Built target listMemories
+[0.201s] [ 66%] Built target listLogVariables
+[0.201s] [ 72%] Built target reboot
+[0.202s] [ 77%] Built target log
+[0.202s] [ 94%] Built target version
+[0.203s] [ 94%] Built target setParam
+[0.203s] [ 94%] Built target console
+[0.206s] [ 97%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[2.243s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In member function ‘[01m[Kvoid CrazyflieServer::cmd_hover_changed(crazyflie_interfaces::msg::Hover_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.243s] [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1014:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CrazyflieBroadcaster[m[K’ has no member named ‘[01m[KsendHoverSetpoint[m[K’
+[2.243s]  1014 |         cfbc->[01;31m[KsendHoverSetpoint[m[K(
+[2.243s]       |               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.967s] gmake[2]: *** [CMakeFiles/crazyflie_server.dir/build.make:76: CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o] Error 1
+[8.967s] gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/crazyflie_server.dir/all] Error 2
+[8.967s] gmake: *** [Makefile:146: all] Error 2
+[8.968s] Invoked command in '/home/mocaplab/ros2_ws/build/crazyflie' returned '2': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie -- -j16 -l16

@@ -1,0 +1,62 @@
+[0.133s] Invoking command in '/home/mocaplab/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie -- -j16 -l16
+[0.170s] [ 25%] Built target crazyflieLinkCpp
+[0.171s] [ 30%] Built target teleop
+[0.184s] [ 38%] Built target crazyflie_cpp
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[0.208s] [ 50%] Built target listParams
+[0.209s] [ 50%] Built target reboot
+[0.209s] [ 55%] Built target scan
+[0.209s] [ 61%] Built target listLogVariables
+[0.209s] [ 66%] Built target log
+[0.210s] [ 72%] Built target listMemories
+[0.210s] [ 80%] Built target setParam
+[0.210s] [ 83%] Built target battery
+[0.210s] [ 88%] Built target version
+[0.211s] [ 94%] Built target console
+[0.216s] [ 97%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[20.950s] [100%] [32m[1mLinking CXX executable crazyflie_server[0m
+[22.486s] [100%] Built target crazyflie_server
+[22.495s] Invoked command in '/home/mocaplab/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --build /home/mocaplab/ros2_ws/build/crazyflie -- -j16 -l16
+[22.518s] Invoking command in '/home/mocaplab/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/mocaplab/ros2_ws/build/crazyflie
+[22.522s] -- Install configuration: ""
+[22.522s] -- Execute custom install script
+[22.523s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/scan
+[22.523s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/listParams
+[22.523s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/listLogVariables
+[22.523s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/listMemories
+[22.524s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/reboot
+[22.524s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/battery
+[22.524s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/version
+[22.524s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/console
+[22.524s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/log
+[22.524s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/setParam
+[22.525s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/teleop
+[22.525s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server
+[22.525s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[22.525s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/chooser.py
+[22.525s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/vel_mux.py
+[22.525s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/lib/crazyflie/cfmult.py
+[22.525s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie//launch/launch.py
+[22.525s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[22.525s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie//config/config.rviz
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie//config/server.yaml
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie//config/teleop.yaml
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/environment/path.sh
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/environment/path.dsv
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/local_setup.bash
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/local_setup.sh
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/local_setup.zsh
+[22.526s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/local_setup.dsv
+[22.526s] -- Symlinking: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/package.dsv
+[22.531s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[22.531s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[22.531s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[22.531s] -- Up-to-date symlink: /home/mocaplab/ros2_ws/install/crazyflie/share/crazyflie/package.xml
+[22.534s] Invoked command in '/home/mocaplab/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/mocaplab/ros2_ws/install/motion_capture_tracking_interfaces:/home/mocaplab/ros2_ws/install/crazyflie_interfaces:/home/mocaplab/ros2_ws/install/motion_capture_tracking:/home/mocaplab/ros2_ws/install/crazyflie:/home/mocaplab/ros2_ws/install/crazyflie_sim:/home/mocaplab/ros2_ws/install/crazyflie_examples:/home/mocaplab/ros2_ws/install/crazyflie_py:/opt/ros/humble /usr/bin/cmake --install /home/mocaplab/ros2_ws/build/crazyflie

@@ -1,0 +1,81 @@
+[ 25%] Built target crazyflieLinkCpp
+[ 30%] Built target teleop
+[ 38%] Built target crazyflie_cpp
+[35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[ 44%] Built target battery
+[ 50%] Built target listMemories
+[ 55%] Built target console
+[ 61%] Built target scan
+[ 66%] Built target listParams
+[ 72%] Built target listLogVariables
+[ 83%] Built target reboot
+[ 83%] Built target version
+[ 88%] Built target log
+[ 94%] Built target setParam
+[ 97%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:495:62:[m[K [01;31m[Kerror: [m[K‘[01m[KPosition[m[K’ in namespace ‘[01m[Kcrazyflie_interfaces::msg[m[K’ does not name a type
+  495 |   void cmd_position_changed(const crazyflie_interfaces::msg::[01;31m[KPosition[m[K::SharedPtr msg) {
+      |                                                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:495:82:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  495 |   void cmd_position_changed(const crazyflie_interfaces::msg::Position::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                                  [01;31m[K^~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:495:81:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  495 |   void cmd_position_changed[34m[K([m[Kconst crazyflie_interfaces::msg::Position::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                            [34m[K~[m[K                                                    [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                                 [32m[K)[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:495:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  495 |   void cmd_position_changed(const crazyflie_interfaces::msg::Position::[01;31m[KSharedPtr[m[K msg) {
+      |                                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                                 [32m[K;[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:495:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+  495 |   void cmd_position_changed(const crazyflie_interfaces::msg::Position::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                                  [01;31m[K^~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:720:51:[m[K [01;31m[Kerror: [m[K‘[01m[KPosition[m[K’ is not a member of ‘[01m[Kcrazyflie_interfaces::msg[m[K’
+  720 |   rclcpp::Subscription<crazyflie_interfaces::msg::[01;31m[KPosition[m[K>::SharedPtr subscription_cmd_position_;
+      |                                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:720:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  720 |   rclcpp::Subscription<crazyflie_interfaces::msg::Position[01;31m[K>[m[K::SharedPtr subscription_cmd_position_;
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:720:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:720:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:720:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:720:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  720 |   rclcpp::Subscription<crazyflie_interfaces::msg::Position>::[01;31m[KSharedPtr[m[K subscription_cmd_position_;
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                                       [32m[K;[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:720:72:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_cmd_position_[m[K’ does not name a type
+  720 |   rclcpp::Subscription<crazyflie_interfaces::msg::Position>::SharedPtr [01;31m[Ksubscription_cmd_position_[m[K;
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieROS::CrazyflieROS(const string&, const string&, const string&, rclcpp::Node*, rclcpp::CallbackGroup::SharedPtr, rclcpp::CallbackGroup::SharedPtr, bool)[m[K’:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:143:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_cmd_position_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_cmd_hover_[m[K’?
+  143 |     [01;31m[Ksubscription_cmd_position_[m[K = node->create_subscription<crazyflie_interfaces::msg::Position>(name + "/cmd_position", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieROS::cmd_position_changed, this, _1), sub_opt_cf_cmd);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Ksubscription_cmd_hover_[m[K
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:143:87:[m[K [01;31m[Kerror: [m[K‘[01m[KPosition[m[K’ is not a member of ‘[01m[Kcrazyflie_interfaces::msg[m[K’
+  143 |   subscription_cmd_position_ = node->create_subscription<crazyflie_interfaces::msg::[01;31m[KPosition[m[K>(name + "/cmd_position", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieROS::cmd_position_changed, this, _1), sub_opt_cf_cmd);
+      |                                                                                     [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:143:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription<<expression error> >(std::__cxx11::basic_string<char>, rclcpp::SystemDefaultsQoS, std::_Bind_helper<false, void (CrazyflieROS::*)(...), CrazyflieROS*, const std::_Placeholder<1>&>::type, rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >&)[m[K’
+  143 | ption_cmd_position_ = [01;31m[Knode->create_subscription<crazyflie_interfaces::msg::Position>(name + "/cmd_position", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieROS::cmd_position_changed, this, _1), sub_opt_cf_cmd)[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:143:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  143 | ption_cmd_position_ = [01;31m[Knode->create_subscription<crazyflie_interfaces::msg::Position>(name + "/cmd_position", rclcpp::SystemDefaultsQoS(), std::bind(&CrazyflieROS::cmd_position_changed, this, _1), sub_opt_cf_cmd)[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In member function ‘[01m[Kvoid CrazyflieServer::cmd_hover_changed(crazyflie_interfaces::msg::Hover_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mocaplab/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:1013:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CrazyflieBroadcaster[m[K’ has no member named ‘[01m[KsendHoverSetpoint[m[K’
+ 1013 |         cfbc->[01;31m[KsendHoverSetpoint[m[K(
+      |               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/crazyflie_server.dir/build.make:76: CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/crazyflie_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
